@@ -6,7 +6,7 @@
 -- Generation Time: Nov 26, 2025 at 06:01 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
-
+SELECT "course_calender";
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -42,9 +42,6 @@ CREATE TABLE `appointments` (
 -- Dumping data for table `appointments`
 --
 
-INSERT INTO `appointments` (`id`, `course_name`, `instructor_name`, `start_date`, `end_date`, `start_time`, `end_time`, `created_at`) VALUES
-(1, 'web', 'ms.bezza', '2025-11-26', '2025-11-30', '09:00:00', '10:00:00', '2025-11-26 16:56:09'),
-(2, 'gui', 'someone', '2025-11-26', '2025-11-27', '09:00:00', '10:00:00', '2025-11-26 16:56:49');
 
 --
 -- Indexes for dumped tables
